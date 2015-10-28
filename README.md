@@ -7,7 +7,7 @@ write a simple demo about QuickSort algorithm
 
 ### 分治法的基本思想
 
-#### 分治法的基本思想是：将原问题分解为若干个规模更小但结构与原问题相似的子问题。递归地解这些子问题，然后将这些子问题的解组合为原问题的解。
+分治法的基本思想是：将原问题分解为若干个规模更小但结构与原问题相似的子问题。递归地解这些子问题，然后将这些子问题的解组合为原问题的解。
 
 ### 算法思想
 
@@ -24,4 +24,5 @@ write a simple demo about QuickSort algorithm
 ### 一些参考
 
 [一个日本人对算法的图形模拟](http://jsdo.it/norahiko/oxIy/fullscreen)
+
 [一些关于算法的定义balabala的](http://wiki.jikexueyuan.com/project/data-structure-sorting/quick-sort.html)
