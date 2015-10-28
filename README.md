@@ -19,17 +19,22 @@ write a simple demo about QuickSort algorithm
 
 ### 一些说明
 
+快速排序平均情况下算法时间复杂度为O(N*logN)，且由于比较和数据交换都在原有内存上进行，其空间复杂度为O(1)，是最高效的排序算法之一。另外需要注意的是，快速排序是一种不稳定的排序算法，不能保证相等的元素按照原有顺序排列。
+
 原地排序就是指不申请多余的空间来进行的排序，就是在原来的排序数据中比较和交换的排序。例如快速排序，堆排序等都是原地排序
 
-method1的缺点是，它需要Ω(n)的额外存储空间，也就跟归并排序一样不好。额外需要的存储器空间配置，在实际上的实现，也会极度影响速度和高速缓存的性能。   --摘自维基百科
+method1的缺点是，它需要Ω(n)的额外存储空间，也就跟归并排序一样不好。额外需要的存储器空间配置，在实际上的实现，也会极度影响速度和高速缓存的性能。 也就是说并没有利用原地排序的特点  --摘自维基百科
 
 method2是按照维基百科中的原地(in-place)分区版本，经过验证确实要快很多很多~~~
 
+另外用了下js原生的sort排序,效率在两者之间
 
 ### 参考文章
 
 [作者很细致的列出了多种实现方式，并说明其区别，点赞！](http://bubkoo.com/2014/01/12/sort-algorithm/quick-sort/)
 
 [一个日本人对算法的图形模拟](http://jsdo.it/norahiko/oxIy/fullscreen)
+
+[另一个图形模拟](http://jun-lu.github.io/SortAnimate/index.html)
 
 [一些关于算法的定义balabala的](http://wiki.jikexueyuan.com/project/data-structure-sorting/quick-sort.html)
